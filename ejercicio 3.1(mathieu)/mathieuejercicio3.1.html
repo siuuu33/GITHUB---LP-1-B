@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Lucas Piqueras Castellanos">
+    <title>Java Script</title>
+    <style>
+        p{ color:rgba(0, 31, 204, 0.404); font-size: 30px;}
+        img {display: block;margin:auto;} /*Comentario. Código en CSS para centrar la imagen*/
+        div{text-align:center;}
+    </style>
+</head>
+<body>
+    <div>
+        <p id="ejemplo">NO PULSES EL BOTON QUE DICE. NO PULSAR</p>
+        <img src="mathieu.jpg" id="foto" width="600px"> <br>
+        <button onclick="mathieujoven();">Mathieu Joven</button>
+        <button onclick="Hoy();">Hoy</button>
+        <button onclick="noPulsar();">No pulsar</button>
+        <button onclick="mostrar();">Mostrar</button>
+        <button onclick="ocultar();">Ocultar</button>
+    </div>
+<script>
+    alert("Esta página contiene JavaScript y está hecha en C.C. Sigue atentamente las instrucciones");
+        function mathieujoven(){
+            document.getElementById("ejemplo").innerHTML="No pulses el boton que dice-No Pulsar";
+            document.getElementById("ejemplo").style.color= "c0c";
+            document.getElementById("foto").src= "images/mathieujoven.jpg";
+        }
+        function Hoy(){
+            document.getElementById("ejemplo").innerHTML="No pulses el boton que dice-No Pulsar";
+            document.getElementById("ejemplo").style.color= "c0c";
+            document.getElementById("foto").src= "images/mathieuhoy.jpg";
+        }
+        function noPulsar(){
+            document.getElementById("ejemplo").innerHTML="No pulses el boton que dice-No Pulsar";
+            document.getElementById("ejemplo").style.color= "c0c";
+            document.getElementById("foto").src= "images/nopulsarmathieu.jpg";
+        }
+        function mostrar(){
+            document.getElementById("ejemplo").innerHTML="No pulses el boton que dice-No Pulsar";
+            document.getElementById("ejemplo").style.display= "block";
+            document.getElementById("foto").style.display= "block";
+        }
+        function Hoy(){
+            document.getElementById("ejemplo").style.display="none";
+            document.getElementById("foto").style.display="none";
+        }
+</script>
+        
+</body>
+</html>

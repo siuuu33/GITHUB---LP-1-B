@@ -1,0 +1,22 @@
+body {font-family:Verdana;}
+h1 {color:#939aa0;
+    font-size: 22px;}
+img {margin-left: 100px}
+h2 {color:#d15909
+    font-size:16px;}
+p {color:#0b1270;
+    font-size:12px;
+    width: 60%;
+    padding-left: 50px}
+ol, ul {border-style: dotted;
+    margin-right: 500px;
+    background: #afeeee}
+li {color: #000;
+    font-size: 11px;
+    width: 60%;
+    padding: 5px}
+footer {text-align:center;
+    color:#dfd008;
+    font-size: 11px;
+    width: 60%;
+    background: #047209}
